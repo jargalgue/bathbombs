@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    background-color: #336699;
+    background-color: #c9344d;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -17,6 +17,14 @@ header h1 {
     margin: 0;
 }
 
+section img.product-image {
+    display: block;
+    margin: 0 auto 20px;
+    width: 2cm;
+    height: 2cm;
+}
+
+
 section {
     padding: 20px;
     margin-bottom: 20px;
@@ -24,7 +32,7 @@ section {
 }
 
 section h2 {
-    color: #336699;
+    color: #c9344d;
 }
 
 section img {
