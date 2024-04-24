@@ -9,15 +9,21 @@ body {
 header {
     background-color: #FFC0CB; /* Rosa */
     color: #fff;
-    text-align: center;
+    text-align: left; /* Cambiado a izquierda */
     padding: 20px;
+}
+
+.header-content {
+    display: flex; /* Usamos flexbox para alinear elementos */
+    align-items: center; /* Centramos verticalmente */
 }
 
 header img {
     width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 20px; /* Añadido margen derecho */
 }
 
-header h1 {
+header .title {
     margin: 0;
 }
 
