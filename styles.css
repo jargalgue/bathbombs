@@ -34,8 +34,8 @@ section h2 {
 section img {
     display: block;
     margin: 0 auto 20px;
-    width: 150px; /* Ajusta el tamaño de las imágenes según sea necesario */
-    height: 150px;
+    /* width: 150px;
+    height: 150px; */
 }
 
 footer {
