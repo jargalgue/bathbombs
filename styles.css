@@ -9,22 +9,40 @@ body {
 header {
     background-color: #FFC0CB; /* Rosa */
     color: #fff;
-    text-align: left; /* Cambiado a izquierda */
+    text-align: left;
     padding: 20px;
 }
 
 .header-content {
-    display: flex; /* Usamos flexbox para alinear elementos */
-    align-items: center; /* Centramos verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content .title {
+    display: flex;
+    align-items: center;
 }
 
 header img {
-    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
-    margin-right: 20px; /* Añadido margen derecho */
+    width: 100px;
+    margin-right: 20px;
 }
 
-header .title {
+header nav ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
 }
 
 section {
@@ -34,7 +52,7 @@ section {
 }
 
 section h2 {
-    color: #FF69B4; /* Rosa claro */
+    color: #FF69B4;
 }
 
 section img {
@@ -43,7 +61,7 @@ section img {
 }
 
 footer {
-    background-color: #FFC0CB; /* Rosa */
+    background-color: #FFC0CB;
     color: #fff;
     text-align: center;
     padding: 20px;
